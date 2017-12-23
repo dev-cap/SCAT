@@ -1,6 +1,6 @@
 # Slack Community Analysis Tool (SCAT)
 
-As the name suggests, Slack Community Analysis Tool analyses log analysis of slack channels. The analyses is carried over 3 broad catergories: channel, network and users. Along with libray, the tool offers a front-end with visualisations which eases the process of analysis.  
+As the name suggests, Slack Community Analysis Tool performs log analysis of Slack channels. The analysis is carried over 3 broad catergories: channel, network and users. Along with library with public API access, the tool offers a webapp front-end with visualisations which eases the process of understanding and gaining insights from the results.  
 
 SCAT will be useful to users of slack channels in three distinct ways. The first use is the ego-centric view of a participant’s activities on the slack channel. A summary of conversations and community interactions undertaken by the user shall be presented to the user. The second use is the summary of community interests and groups that exist on one or more slack channels. The third use is to help a new user to the community get familiar with channel characteristics quickly, for example, identifying the experts to direct questions to and knowing the time periods and days when he is more likely to get a response. SCAT will be equally useful to an expert user as he can analyze the channels statistically and understand the community along with the hierarchy if any.
 
