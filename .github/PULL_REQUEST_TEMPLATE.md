@@ -1,16 +1,24 @@
 ## What did you do? Why did you do it?
 Fix/Complete Issue/UserStory . (Add Reference)
 
-Changes proposed in this pull request:
-- a
-- b
-- c
+## Description
+ - Describe proposed changes in detail here. Make a bullet list if multiple relevant changes are present 
+ - However, it is not advisable to combine irrelevant changes into one pull request. Create a separate pull request for each proposed change. 
+
+## Motivation
+ - Why is this change required? What problem does it solve?
+ - If it fixes an open issue, please link to the issue here, and in the commit message. 
 
 ## Checks
-- [ ] [Single commit](http://nathanleclaire.com/blog/2014/09/14/dont-be-scared-of-git-rebase/) - no multiple commits for a single piece of work
-- [ ] Make sure you have added the required documentation
-- [ ] Make sure you have added the required tests for the code you added
-- [ ] If you have refactored a code, make sure that you have compared the outputs pre and post refactoring. Add both pre and post refaoring screenshots below if the output is visual
+ - [ ] Squash your commits down to one, or a few, discreet changesets before submitting a pull request
+ - [ ] Read the [contributing guide](https://github.com/mockito/mockito/blob/release/2.x/.github/CONTRIBUTING.md)
+ - [ ] PR should be motivated, i.e. what does it fix, why, and if relevant how
+ - [ ] If possible, include an example in the description, that could help all readers (including project members) to get a better picture of the change
+ - [ ] Avoid other runtime dependencies unless abslutely necessary 
+ - [ ] Rebase your commit history so that each commit is meaningful and states the intention behind the change 
+ - [ ] Ensure that your pull request follows the [style guidelines](https://github.com/rohangoel96/Slack-Community-Analysis-Tool/wiki/Coding-Guidelines)
+ - [ ] Mention `Fixes #<story number>` in the description _if relevant_
+ - [ ] At least one commit should mention `Fixes #<issue number>` _if relevant_
 
 ## Any images?
 
