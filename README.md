@@ -1,4 +1,6 @@
 # Slack Community Analysis Tool (SCAT)
+![Travis](https://travis-ci.org/rohangoel96/Slack-Community-Analysis-Tool.svg?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/8ad3c8bc31732ab0f579/maintainability)](https://codeclimate.com/github/rohangoel96/Slack-Community-Analysis-Tool/maintainability) [![codecov](https://codecov.io/gh/rohangoel96/Slack-Community-Analysis-Tool/branch/master/graph/badge.svg)](https://codecov.io/gh/rohangoel96/Slack-Community-Analysis-Tool)
+
 
 As the name suggests, Slack Community Analysis Tool performs log analysis of Slack channels. The analysis is carried over 3 broad catergories: channel, network and users. Along with library with public API access, the tool offers a webapp front-end with visualisations which eases the process of understanding and gaining insights from the results.  
 
