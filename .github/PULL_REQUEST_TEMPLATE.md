@@ -13,7 +13,7 @@
 
 ## Checks
  - [ ] Squash your commits down to one, or a few, discreet changesets before submitting a pull request
- - [ ] Read the [contributing guide](https://github.com/mockito/mockito/blob/release/2.x/.github/CONTRIBUTING.md)
+ - [ ] Read the [contributing guide](https://github.com/DeveloperCAP/SCAT/blob/master/CONTRIBUTING.md)
  - [ ] PR should be motivated, i.e. what does it fix, why, and if relevant how
  - [ ] If possible, include an example in the description, that could help all readers (including project members) to get a better picture of the change
  - [ ] Avoid other runtime dependencies unless abslutely necessary 
