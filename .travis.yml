@@ -8,8 +8,11 @@ install:
   - pip install pytest-cov
   - pip install codecov
 
+before_script:
+  export PYTHONPATH=$PYTHONPATH:$(pwd)
+
 script:
-  - pytest tests.py --cov=.
+  - pytest
 
 after_success:
   - codecov
