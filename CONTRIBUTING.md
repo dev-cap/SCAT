@@ -12,7 +12,7 @@ SCAT currently maintains two branche(s):
 * **dev**: all of the development happens on dev and is periodically merged with master
  
 ## Code style guidelines
-The [style guidelines](https://github.com/rohangoel96/Slack-Community-Analysis-Tool/wiki/Coding-Guidelines) wiki page defines the source file coding standards used in this project. 
+The [style guidelines](https://github.com/DeveloperCAP/SCAT/wiki/Coding-Guidelines) wiki page defines the source file coding standards used in this project. 
 
 The following case convention is used in this project: module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name, local_var_name. 
 
@@ -22,7 +22,7 @@ The following case convention is used in this project: module_name, package_name
 * The pull request should be motivated, i.e. what does it fix, why, and if relevant how.
 * If possible, include an example in the description, that could help all readers (including project members) to get a better picture of the change.
 * Avoid other runtime dependencies unless abslutely necessary 
-* Ensure that your pull request follows the [style guidelines](https://github.com/rohangoel96/Slack-Community-Analysis-Tool/wiki/Coding-Guidelines)
+* Ensure that your pull request follows the [style guidelines](https://github.com/DeveloperCAP/SCAT/wiki/Coding-Guidelines)
 * Mention `Fixes #<story number>` in the description _if relevant_, and at least one commit should mention `Fixes #<issue number>`.
 
  
