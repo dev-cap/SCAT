@@ -1,15 +1,18 @@
 language: python
 
 python:
-  - 2.7
+  - 3.5
 
 install:
   - pip install pytest
   - pip install pytest-cov
   - pip install codecov
 
+before_script:
+  export PYTHONPATH=$PYTHONPATH:$(pwd)
+
 script:
-  - pytest tests.py --cov=.
+  - pytest
 
 after_success:
   - codecov
