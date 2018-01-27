@@ -3,6 +3,9 @@ language: python
 python:
   - 3.5
 
+cache:
+  - pip
+
 install:
   - pip install pytest
   - pip install pytest-cov
@@ -12,7 +15,7 @@ before_script:
   export PYTHONPATH=$PYTHONPATH:$(pwd)
 
 script:
-  - pytest
+  - py.test -v --color=yes --cov=.
 
 after_success:
   - codecov
