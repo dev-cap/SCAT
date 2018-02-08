@@ -27,10 +27,10 @@ MESSAGES_RANGE = 100
 ## Destination folders for different types of data logs
 
 # Destination of Team's general data (team.json, channels.json)
-DESTINATION_FOLDER = '../../data/'
+DESTINATION_FOLDER = './data/'
 # Destination of Team's messages
-DESTINATION_FOLDER_MESSAGES = '../../data/%s/messages'
+DESTINATION_FOLDER_MESSAGES = './data/%s/messages'
 # Destination of Team's users data
-DESTINATION_FOLDER_USERS = '../../data/%s/users'
+DESTINATION_FOLDER_USERS = './data/%s/users'
 
 #--------------------------------------------------------------------------------------------#
