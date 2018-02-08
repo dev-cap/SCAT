@@ -118,7 +118,7 @@ class DataToJson(object):
                 list_messages += self.messages_data
 
             print("Completing %s" % channel['name'])
-            write_to_json(DESTINATION_FOLDER_MESSAGES  % self.team_name, '%s.json' % channel['name'], list_messages)
+            write_to_json(DESTINATION_FOLDER_MESSAGES  % self.team_name, '/%s.json' % channel['name'], list_messages)
 
     def users_to_json(self):
         """
@@ -134,7 +134,7 @@ class DataToJson(object):
 
             print('Completing ' + channel['name'])
 
-            write_to_json(DESTINATION_FOLDER_USERS  % self.team_name, '%s.json' % channel['name'], list_users)
+            write_to_json(DESTINATION_FOLDER_USERS  % self.team_name, '/%s.json' % channel['name'], list_users)
 
 
 
@@ -152,7 +152,7 @@ def write_to_json(destination, file_name, data_to_write):
         write_file.write(json.dumps(data_to_write, indent=4, sort_keys=True))
 
 
-
+# Uncomment the following and run the script to download the data logs for desired team.
 # team = DataToJson('syple')
 # team.team_to_json()
 # team.channels_to_json()
